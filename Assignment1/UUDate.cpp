@@ -47,40 +47,25 @@ int monthDays[] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
 
 void UUDate::IncrementDate() {
 	//TODO - Add your implementation here
-
-	}
-
-/*
-	if (leapyear(year_) == true)){
-	monthDays[month_ - 1]
-	}
-}
-*/
-/*if (year_ > 1) {
 	day_++;
-	month_++;
-	year_++;
-}
-
-else if (day_ >=31 ||day_ >=30|| month_>=12){
-	day_ == 1;
-	month_ == 1;
-}*/
-/*	if (monthDays[month_ - 1]{
-
+	if (day_ >= 31 || day_ == 30) {
+		month_++;
+		day_ = 1;
+		year_++;
+	
+		while (month_ > 12) {
+			month_ = 1;
 		}
-		*/
-
-	/*if (LeapYear(year_) == true) {
-		day_ == 29;
 	}
-}
-*/
 
+	}
 
 int UUDate::Between(UUDate date) {
 	//TODO - Add your implementation here
-	int num1 = year_ * 365 + day_; // year x 365 + day
+	if (LeapYear(year_) == true) {
+		day_ ++;
+	}
+	int num1 = year_ * 365 + day_; 
 
 	for (int i = 0; i < month_ - 1; i++)
 		num1 += monthDays[i];
@@ -90,11 +75,7 @@ int UUDate::Between(UUDate date) {
 	int num2 = date.year_ * 365 + date.day_;
 	for (int i = 0; i < date.month_ - 1; i++)
 		num2 += monthDays[i];
-	num2 += 0;
-
-	if (LeapYear(year_) == true) {
-		day_ += 1;
-	}
+		num2 += 0;
 
 	return (num2 - num1);
 
