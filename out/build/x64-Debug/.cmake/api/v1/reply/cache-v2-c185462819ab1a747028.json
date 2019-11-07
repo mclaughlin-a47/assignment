@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Aaron/source/repos/Assignment1/out/build/x64-Debug"
+			"value" : "c:/Users/csf18mla/source/repos/assignment/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "15"
+			"value" : "14"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -59,7 +59,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "19080502"
+			"value" : "19060802"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -95,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -111,7 +111,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.22.27905/bin/HostX64/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MDd /Zi /Ob0 /Od /RTC1"
+			"value" : "/MDd /ZI /Ob0 /Od /RTC1 /JMC"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -223,7 +223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/HostX64/x64/cl.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.22.27905/bin/HostX64/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -255,7 +255,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/MDd /Zi /Ob0 /Od /RTC1"
+			"value" : "/MDd /ZI /Ob0 /Od /RTC1 /JMC"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -511,7 +511,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Aaron/source/repos/Assignment1"
+			"value" : "C:/Users/csf18mla/source/repos/assignment"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -523,7 +523,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Aaron/source/repos/Assignment1/out/install/x64-Debug"
+			"value" : "C:/Users/csf18mla/Source/Repos/assignment/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64/link.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.22.27905/bin/Hostx64/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -751,7 +751,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-DWIN32"
+			"value" : "/DWIN32"
 		},
 		{
 			"name" : "CMAKE_RC_FLAGS_DEBUG",
@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-D_DEBUG"
+			"value" : "/D_DEBUG"
 		},
 		{
 			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.15"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.14"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1083,7 +1083,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Aaron/source/repos/Assignment1/out/build/x64-Debug"
+			"value" : "C:/Users/csf18mla/source/repos/assignment/out/build/x64-Debug"
 		},
 		{
 			"name" : "test_com326a1_SOURCE_DIR",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Aaron/source/repos/Assignment1"
+			"value" : "C:/Users/csf18mla/source/repos/assignment"
 		}
 	],
 	"kind" : "cache",
