@@ -3,8 +3,8 @@
 * UUDate.cpp
 *
 * Version information
-* Author: TODO - Add your name here
-* Date: TODO - Add date you started working on the code
+* Author: Aaron Mclaughlin
+* Date: 20/10/2019
 * Description: This file is the implementation file for the UUDate class and defines (implements) the functions of the class
 *
 * Copyright notice -

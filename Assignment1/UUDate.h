@@ -2,8 +2,8 @@
 * UUDate.h
 *
 * Version information
-* Author: TODO - Add your name here
-* Date: TODO - Add date you started working on the code
+* Author: Aaron Mclaughlin
+* Date: 20/10/2019
 * Description: This file is the header file for the UUDate class and declares the class interface
 * NOTE: Do not change the signatures of the functions provided. You may add your own support functions
 *
