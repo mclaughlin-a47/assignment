@@ -62,9 +62,7 @@ void UUDate::IncrementDate() {
 
 int UUDate::Between(UUDate date) {
 	//TODO - Add your implementation here
-	if (LeapYear(year_) == true) {
-		day_ ++;
-	}
+
 	int num1 = year_ * 365 + day_; 
 
 	for (int i = 0; i < month_ - 1; i++)
