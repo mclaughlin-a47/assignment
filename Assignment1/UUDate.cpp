@@ -63,20 +63,20 @@ void UUDate::IncrementDate() {
 int UUDate::Between(UUDate date) {
 	//TODO - Add your implementation here
 
-	int num1 = year_ * 365 + day_; 
-
-	for (int i = 0; i < month_ - 1; i++)
-		num1 += monthDays[i];
-
-	num1 += LeapYearCtn(month_,year_);
+	int num1 = year_ * 365 + day_;
 
 	int num2 = date.year_ * 365 + date.day_;
-	for (int i = 0; i < date.month_ - 1; i++)
-		num2 += monthDays[i];
-		num2 += LeapYearCtn(date.month_,date.year_);
+	for (int i = 0; i < month_ - 1; i++) {
+		num1 += monthDays[i];
+	}
+	num1 += LeapYearCtn(month_, year_);
 
-	return (num2 - num1);
+	for (int i = 0; i < date.month_ - 1; i++) 
+	num2 += monthDays[i];
+	num2 += LeapYearCtn(date.month_, date.year_);
 
+		return (num2 - num1);
+	
 }
 
 int UUDate::GetDay() const {
@@ -122,7 +122,7 @@ std::string UUDate::GetDate() {
 }
 
 bool UUDate::LeapYear(int year) {
-	if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
 		return true;
 	}
 	else {
