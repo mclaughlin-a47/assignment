@@ -70,12 +70,12 @@ int UUDate::Between(UUDate date) {
 	for (int i = 0; i < month_ - 1; i++)
 		num1 += monthDays[i];
 
-	num1 += 0;
+	num1 += LeapYearCtn(month_,year_);
 
 	int num2 = date.year_ * 365 + date.day_;
 	for (int i = 0; i < date.month_ - 1; i++)
 		num2 += monthDays[i];
-		num2 += 0;
+		num2 += LeapYearCtn(date.month_,date.year_);
 
 	return (num2 - num1);
 
@@ -130,6 +130,15 @@ bool UUDate::LeapYear(int year) {
 	else {
 		return false;
 	}
+}
+int UUDate::LeapYearCtn(int month, int year)
+{
+	int years = year;
+
+	if (month <= 2)
+		years--;
+
+	return years / 4 - years / 100 + years / 400;
 }
 
 bool UUDate::validateYr(int year) {
