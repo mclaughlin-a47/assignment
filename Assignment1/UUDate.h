@@ -47,6 +47,7 @@ public:
 	bool validateYr(int year);
 	bool validateMonth(int month);
 	bool validateDay(int day);
+	int LeapYearCtn(int month, int year);
 			
 };
 
