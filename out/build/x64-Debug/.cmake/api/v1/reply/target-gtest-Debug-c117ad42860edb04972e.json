@@ -77,7 +77,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /ZI /Ob0 /Od /RTC1 /JMC /Od  "
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Od  "
 				}
 			],
 			"defines" : 
@@ -91,17 +91,17 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/csf18mla/source/repos/assignment/Assignment1"
+					"path" : "C:/Users/aaron/source/repos/assignment/Assignment1"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "C:/Users/csf18mla/source/repos/assignment/googletest/googletest"
+					"path" : "C:/Users/aaron/source/repos/assignment/googletest/googletest"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "C:/Users/csf18mla/source/repos/assignment/googletest/googletest/include"
+					"path" : "C:/Users/aaron/source/repos/assignment/googletest/googletest/include"
 				}
 			],
 			"language" : "CXX",

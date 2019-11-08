@@ -10,10 +10,10 @@ This README contains detailed instructions for your assignment. Read it carefull
 * __Assignment weighting:__ 50% of coursework mark
 
 ### To do
-* Student name: [Replace this text with  your name]
-* StudentID: [Replace this text with your Student ID]
-* GitHub Username: [Replace this text  with your GitHub username]
-* Discord Name: [Replace this text with your Discord username]
+* Student name: Aaron Mclaughlin
+* StudentID: B00642967
+* GitHub Username: mclaughlin-a47
+* Discord Name: raccoondog
 
 ## Problem statement:
 Implement a simple date class called `UUDate` in C++. The `UUDate.h` file declares the interface for the class. You must
